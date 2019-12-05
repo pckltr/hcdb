@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: black;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: yellow;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+  margin-right: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.header {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+#home {
+  height: 100vh;
+  background-image: url('hcdb01.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 5%;
+  background-position-x: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#shows {
+  height: 100vh;
+}
+
+#gallery {
+  height: 100vh;
+}
+
+#aboutus {
+  height: 100vh;
+}
+
+.logo {
+  height: 4rem;
+}
+img {
+  vertical-align: middle;
+}
+
+.title {
+  font-size: 5vh;
+  color: white;
+  margin-bottom: 0;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  font-weight: lighter;
+  letter-spacing: 0.1rem;
+}
+.subtitle {
+  padding-left: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  font-size: 3vh;
+  color: white;
+  margin-top: 0;
+  padding-top: 1rem;
+  border-top: 1px solid yellow;
+  font-weight: lighter;
+  letter-spacing: 0.2rem;
+}
+.section-title {
+  color: white;
+  padding-top: 5rem;
+  padding-left: 1rem;
+  font-size: 2rem;
+}
